@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "yam-inbox-multiopen",
+  "description": "Yammerの未読のinboxを一括でタブOPENします",
+  "version": "1.1",
+
+  "permissions": [
+    "tabs",
+    "https://www.yammer.com/"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon-48.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
